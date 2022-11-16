@@ -1,0 +1,32 @@
+h1{
+    font-family: sans-serif;
+}
+
+button{
+    border: none;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.button1{
+    background-image: linear-gradient(#f24f13,#eb8934, #faebe6);
+    margin: 0px 15px;
+}
+.button2{
+    background-image: linear-gradient(#86c0db,#07378a );
+    margin: 0px 15px;
+}
+.button3{
+    background-image: linear-gradient(#7de3a2, #056328);
+    margin: 0px 15px;
+}
+.button4{
+    background-image: linear-gradient(#6e4c75, #5b0a6e);
+    margin: 0px 15px;
+}
+.button5{
+    background-image: linear-gradient(#c0bac2);
+    margin: 0px 15px;
+}
+
+
