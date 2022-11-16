@@ -1,0 +1,40 @@
+body{
+    line-height: 35px;
+    font-family: sans-serif;
+ }
+
+.float-left{
+    width: 40%;
+    float: left;
+}
+
+.float-right{
+    width: 40%;
+    float: left;
+    margin-left: 70px;
+}
+
+
+ input{
+    display: block;
+    width:90%;
+    height: 40px;
+    margin: 0% 5%;
+    color:rgb(203, 199, 199);
+    border: 2px solid;
+}
+
+label{
+    width:90%;
+    height: 40px;
+    margin: 0% 5%;
+}
+
+button{
+    height: 30;
+    margin: 0% 5%;
+    margin-top: 15;
+    border: none;
+    background-color: rgb(203, 199, 199);
+    cursor: pointer;
+ }
