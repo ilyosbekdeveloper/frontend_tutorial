@@ -1,0 +1,28 @@
+body{
+    background-image: url(../2-topshiriq/img/12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    
+    }
+
+h1{
+    text-align: center;
+    margin: 80px;
+    font-family: sans-serif;
+}
+
+button{
+    margin:0 auto;
+    display: flex;
+    width: 100;
+    padding: 10px;
+    text-align:center;
+    background:rgb(745, 645, 765, 0);
+    color: #fff;
+    border: 1px solid #fff;
+    padding-left: 30px;
+    position: relative;
+    bottom: 2rem;
+    cursor: pointer;
+}
