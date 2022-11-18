@@ -1,0 +1,12 @@
+body{
+    width: 98vw;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+div{
+    margin: 20px 0px 30px 30px;
+}
