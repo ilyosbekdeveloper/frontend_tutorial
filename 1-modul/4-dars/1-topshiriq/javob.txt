@@ -1,0 +1,6 @@
+CSSning HTMLGA tasiri shundaki, 
+biz CSS ni HTMLGA  <link> orqali ulaymiz
+va xoxlagan elementimizga class berib target qilib
+olamiz va css da o'sha class nomini kiritib 
+xoxlagan style mizni beramiz
+ 

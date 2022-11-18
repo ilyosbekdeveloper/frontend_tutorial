@@ -1,0 +1,6 @@
+CSS da 3 ta selektor turi bor
+bular: 
+
+INLINE CSS
+INTERNAL CSS
+EXTERNAL CSS

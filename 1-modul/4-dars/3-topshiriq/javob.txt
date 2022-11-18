@@ -1,0 +1,5 @@
+CSS ning seleltorlari orasida ham farq bor.
+Ma'qul ko/rilgan usl bu EXTERNAL CSS usulidir.
+Biz bu uslda css uchun alohida bitta papka ochib olamiz va
+u papkani html kodlarimiz bilan ulaymiz
+va o'zimiz xoxlaga stylelarni HTML ga berib chiqamiz 
