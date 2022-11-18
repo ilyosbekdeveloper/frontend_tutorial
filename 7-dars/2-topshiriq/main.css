@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.box{
+    border: 1px solid rgb(191 187 187);
+    margin: 0px 30px;
+    width: 300px;
+}
+img{
+    width: 100px;
+    margin-top: 10px;
+}
+
+p{
+    color: #999;
+}

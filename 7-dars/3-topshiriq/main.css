@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(239, 250, 246);
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;   
+}
+
+li:nth-child(1){
+    padding-right: 40px;
+    font-size: x;
+}
+
+ul{
+    padding: 0px;
+}
+
+.box{
+    margin: 10px;
+    background-color: #fff;
+    width: 300px;
+    padding-left: 15px;
+}
+
+span{
+    color: green;
+}
