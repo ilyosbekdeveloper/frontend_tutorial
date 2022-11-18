@@ -1,0 +1,61 @@
+body{
+    width:600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: inline;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    width: 18%;
+    margin-top: 5px;
+}
+
+.right .inliner{
+    display: flex;
+    width: 100%;
+}
+
+.jek{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgba(214, 205, 205, 0.628);
+}
+.right .inliner img{
+    width: 13px;
+    height: 11px;
+    margin-top: 5px;
+}
+
+h2{
+    margin-top: 5px;
+}
+
+.koment{
+    color: #888;
+    margin:10px 0px;
+}
+
+
+.footer{
+    display: flex;
+}
+
+.footer .yon img{
+    padding: 20px;
+}
+
+.footer .burchak img{
+    padding-left: 250px;
+    padding-top: 22px;
+}
+
