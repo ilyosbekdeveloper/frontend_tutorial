@@ -9,29 +9,41 @@
     <style>
 
         body{
-            text-align: center;
+            width: 500px;
+            margin: 0 auto;
         }
 
-        table, th, td{
-            border: 3px solid #000;
-            border-collapse: collapse;
+        h2, h3{
+            text-align: center;
+            font-family: sans-serif;
         }
 
         .container{
+            display: flex;
             justify-content: center;
-            margin: 0% 42%;
+            flex-direction: column;
         }
+
+        table, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th{
+            text-align: center;
+        }
+
 
     </style>
 
 </head>
 <body>
-    
+    <div class="container">
     <h2> <b> ABC Company Limited</b> </h2>
     <h3>Banapa, Kavre</h3>
     <h3>Staff Details</h3>
 
-    <div class="container">
+    
     <table>
 
         <thead>
@@ -83,7 +95,7 @@
             </tr>
 
             <tr>
-                <td colspan="3">
+                <td colspan="3" style="text-align:center ;">
                     Total
                 </td>
                 <td>

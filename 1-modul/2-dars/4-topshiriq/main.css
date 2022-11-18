@@ -1,0 +1,10 @@
+body{
+    width: 100%;
+}
+table{
+    box-sizing: border-box;
+}
+
+table, th, td{
+    border:1px solid #555 ;
+}
