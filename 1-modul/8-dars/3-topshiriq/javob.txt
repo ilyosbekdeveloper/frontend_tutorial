@@ -1,0 +1,4 @@
+position:absolute;   va   position:relative;
+
+Bularning vazifasi shundaki: maulum  bir contenti 
+qolgan contentlarga tasir qilmagan holdan joyida surish yoki joyini o'zgartirihlikdir

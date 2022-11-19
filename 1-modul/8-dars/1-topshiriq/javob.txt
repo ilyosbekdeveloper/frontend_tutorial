@@ -1,0 +1,3 @@
+POSITION bu-- parametrlari contentni boshqa contentlarga tasir qilmasdan jyidan surish(absolute, relative), 
+yoki joyida qotirib qoyish (fixed). 
+POSITION ning koplab xususiyatlari avjud u bizga saytni chiroyliroq ko'rsatish  uchun ishlatiladi 
