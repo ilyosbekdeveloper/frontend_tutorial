@@ -8,20 +8,24 @@ button{
     padding: 10px;
 }
 
+.container{
+    padding-left: 40px;
+}
+
 .button1{
-    background-image: linear-gradient(#f24f13,#eb8934, #faebe6);
-    margin: 0px 15px;
+    background-image: linear-gradient(90deg , #de500e, rgb(241, 245, 134));
+    margin: 0px 0px 15px 0px;
 }
 .button2{
-    background-image: linear-gradient(#86c0db,#07378a );
+    background-image: linear-gradient(to right,#d0e5ef,#2266da );
     margin: 0px 15px;
 }
 .button3{
-    background-image: linear-gradient(#7de3a2, #056328);
+    background-image: linear-gradient(to right, #c1f4b2, #1fff13);
     margin: 0px 15px;
 }
 .button4{
-    background-image: linear-gradient(#6e4c75, #5b0a6e);
+    background-image: linear-gradient(to right, #dd8ddd, #ea0db7);
     margin: 0px 15px;
 }
 .button5{

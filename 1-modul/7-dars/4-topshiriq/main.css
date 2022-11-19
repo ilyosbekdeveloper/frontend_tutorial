@@ -25,6 +25,10 @@ body{
     width: 100%;
 }
 
+.right .inliner img{
+    padding-right: 10px;
+}
+
 .jek{
     margin-top: 5px;
     margin-bottom: 5px;

@@ -2,9 +2,8 @@
 
 div{
     display: flex;
-    width: 70%;
+    width: 830px;
     margin: 0 auto;
-    justify-content: center;
     background-color: #dee9e9d1;
     font-size: 20px;
 }
