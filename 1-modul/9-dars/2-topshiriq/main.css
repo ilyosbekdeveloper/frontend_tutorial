@@ -27,6 +27,11 @@ h3{
     height: 100%;
     background-color: #fff;
     border-radius: 5px;
+    transition: 0.8s;
+}
+
+.shadow-4:hover{
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
 }
 
 .shadow-5{
@@ -35,6 +40,11 @@ h3{
     height: 100%;
     background-color: #fff;
     border-radius: 5px;
+    transition: 0.7s;
+}
+
+.shadow-5:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .shadow-6{
@@ -43,6 +53,11 @@ h3{
     height: 100%;
     background-color: #fff;
     border-radius: 5px;
+    transition: 0.7s;
+}
+
+.shadow-6:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .shadow-sharp{
@@ -51,6 +66,11 @@ h3{
     height: 100%;
     background-color: #fff;
     border-radius: 5px;
+    transition: 0.5s;
+}
+
+.shadow-sharp:hover{
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .shadow-difficuse{
@@ -59,6 +79,11 @@ h3{
     height: 100%;
     background-color: #fff;
     border-radius: 5px;
+    transition: 0.4s;
+}
+
+.shadow-difficuse:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
 }
 
 .shadow-dreamy{
@@ -67,6 +92,11 @@ h3{
     height: 100%;
     background-color: #fff;
     border-radius: 5px;
+    transition: 0.75s;
+}
+
+.shadow-dreamy:hover{
+    box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.4);
 }
 
 .shadow-shorter{
@@ -75,6 +105,11 @@ h3{
     height: 100%;
     background-color: #fff;
     border-radius: 5px;
+    transition: 0.75s;
+}
+
+.shadow-shorter:hover{
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.8);
 }
 
 .shadow-longer{
@@ -83,4 +118,9 @@ h3{
     height: 100%;
     background-color: #fff;
     border-radius: 5px;
+    transition: 0.5s;
+}
+
+.shadow-longer:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
 }
