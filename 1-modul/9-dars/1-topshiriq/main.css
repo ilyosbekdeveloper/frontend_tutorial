@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #3f68eec3;
+    border-radius: 3px;
+    color: #fff;
+    letter-spacing: 3px;
+    transition:all 0.5s linear;
+}
+
+.btn:hover{
+    border-radius: 40px;
+
+}
+
+.btn:active{
+    background-color: green;
+    transition: 0.6s;
+}
