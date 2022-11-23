@@ -27,6 +27,9 @@ i{
     color: #090909;
 
 }
+.icon{
+    font-size: 60px;
+}
 
 .pulse span{
     position: absolute;
