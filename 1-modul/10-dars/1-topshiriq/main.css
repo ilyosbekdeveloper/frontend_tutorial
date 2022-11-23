@@ -42,6 +42,38 @@ button{
 .button1:hover{
     background-image: linear-gradient(to left,#f2d070,#f6cb6a,#f8c46d,#f8c171,#f9b379,#faab7d, #fca384 );
 }
+.button2{
+    background-image: linear-gradient(to right,#f0c2ed, #d1c1eb,#a9c1ed);
+    transition-duration: 1s;
+}
+
+.button2:hover{
+    background-image: linear-gradient(to left,#f0c2ed, #d1c1eb,#a9c1ed);
+}
+.button3{
+    background-image: linear-gradient(to right,#85f6b5,#8be8cf,#8bdce3, #8fd3f1 );
+    transition-duration: 1s;
+}
+
+.button3:hover{
+    background-image: linear-gradient(to left,#85f6b5,#8be8cf,#8bdce3, #8fd3f1 );
+}
+.hover1{
+    background-image: linear-gradient(to right,#a6c9fd, #aed0fb,#b3d9fa, #bde2fc, #bfe7fb);
+    transition-duration: 1s;
+}
+
+.hover1:hover{
+    background-image: linear-gradient(to left,#a6c9fd, #aed0fb,#b3d9fa, #bde2fc, #bfe7fb);
+}
+.hover2{
+    background-image: linear-gradient(to right, #ffebcd, #fee4cb, #ffdabf, #fdd4b9, #fecbb3, #fdc3ab, #fcbba3);
+    transition-duration: 1s;
+}
+
+.hover2:hover{
+    background-image: linear-gradient(to left, #ffebcd, #fee4cb, #ffdabf, #fdd4b9, #fecbb3, #fdc3ab, #fcbba3);
+}
 
 
 
