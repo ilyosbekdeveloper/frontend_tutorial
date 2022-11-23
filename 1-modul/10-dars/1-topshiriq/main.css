@@ -1,0 +1,73 @@
+button{
+    border-radius: 15px;
+    border:none;
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    padding: 3%;
+}
+
+.tepa button{
+    width: 31.3%;
+    height: 80px;
+}
+
+.wrapper .tepa{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.past button{
+    width: 48%;
+    height: 80px;
+}
+
+.wrapper .past{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.button1{
+    background-image: linear-gradient(to right,#f2d070,#f6cb6a,#f8c46d,#f8c171,#f9b379,#faab7d, #fca384 );
+    transition-duration: 1s;
+}
+
+.button1:hover{
+    background-image: linear-gradient(to left,#f2d070,#f6cb6a,#f8c46d,#f8c171,#f9b379,#faab7d, #fca384 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
