@@ -1,0 +1,165 @@
+.hr{
+    border: 0.1px solid #e8e8e8;
+    background-color: #e8e8e8;
+}
+
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.box{
+    width:230px;
+    height: 420px;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box img{
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.box h3{
+    color: #424242;
+}
+
+.box h4{
+    color: #828282;
+}
+
+del{
+    color: #c8c8c8;
+    padding-right: 5px;
+}
+
+.star{
+    position: relative;
+}
+.stars{
+    color: #fca300;
+    display: flex;
+    justify-content: center;
+}
+
+.stars{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+}
+
+
+.yulduz{
+    color: #d5ceda;
+}
+
+.course{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.jek1{
+    background-color: #a3a3a3;
+    border-radius: 3px;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #b9b9b9;
+}
+
+.jek2{
+    background-color: #a3a3a3;
+    border-radius: 3px;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #e8e8e8;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin-bottom: -10px;
+}
+
+.right{
+    padding-top: 20px;
+}
+
+.header h2{
+    font-size: 22px;
+}
+
+.hr1{
+    width: 100%;
+    height: 2px;
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.svg{
+    width: 20px;
+    height: 20px;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.it{
+    text-align: center;
+    margin: 5px;
+    color: #424242;
+}
+
+@media only screen (min-width:0) and (max-width:474.99px) {
+
+    .wrapper{
+        width: 100%;
+    }
+    .box{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
