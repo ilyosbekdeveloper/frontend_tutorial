@@ -59,16 +59,13 @@ h6{
     flex-wrap: wrap;
 }
 
-@media (min-width: 0) and (max-width:474.9px) {
+@media   screen   and (max-width:474px) {
 
-
+    .wrapper{
+        width: 100%;
+    }
     .box{
         width: 100%;
-
-    }
-
-    body{
-        width: 400px;
     }
 
 }
