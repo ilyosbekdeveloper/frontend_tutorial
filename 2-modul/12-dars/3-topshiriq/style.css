@@ -3,7 +3,6 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color: #ddf0fc;
 }
 .wrapper{
     background-color: #fff;
@@ -212,7 +211,11 @@ body{
 
     .box{
         width: 100%;
+        margin: 0px 20px;
+        overflow: hidden;
     }
+
+
 
 }
 
@@ -221,10 +224,17 @@ body{
     .wrapper{
         width: 100%;
         box-sizing: border-box;
+        padding: 0px 20px;
+        overflow: hidden;
+        box-sizing: border-box;
     }
 
     .box{
         width: 50%;
+    }
+
+    .box:nth-child(even){
+        overflow: hidden;
     }
 
 }
@@ -235,10 +245,14 @@ body{
         width: 100%;
         box-sizing: border-box;
         margin: 5px 0px;
+        padding: 10px 20px;
     }
 
     .box{
         width: 25%;
+    }
+    .box4, .box8{
+        overflow: hidden;
     }
 
 }
