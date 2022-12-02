@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #ddf0fc;
+}
+.wrapper{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 5rem auto;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #af7ac5;
+    transition: 0.4s;
+    position: relative;
+}
+
+.box img{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    background-size: cover;
+    transition: 0.4s;
+}
+
+.img{
+    display: flex;
+}
+
+.box h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.box p{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 13px;
+}
+
+.box1{
+    background-color: #af7ac5;
+}
+.box2{
+    background-color: #5dade2;
+}
+.box3{
+    background-color: #48c9b0;
+}
+.box4{
+    background-color: #52be80;
+}
+.box5{
+    background-color: #ecc837;
+}
+
+.box6{
+    background-color: #eb984e;
+}
+
+.box7{
+    background-color: #f06292;
+}
+
+.box8{
+    background-color: #4db6ac;
+}
+
+.box:hover{
+    background-color: #0b6ca9;
+}
+
+
+.box:hover img{
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width:474.9px){
+
+    .wrapper{
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+}
+
+@media (min-width:475px) and (max-width:775.99px){
+
+    .wrapper{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .box{
+        width: 50%;
+    }
+
+}
+
+@media (min-width:776px) and (max-width:989.99px){
+
+    .wrapper{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 5px 0px;
+    }
+
+    .box{
+        width: 25%;
+    }
+
+}
+
+@media (min-width:990px) and (max-width:1199.99px){
+
+    .wrapper{
+        width: 900px;
+        box-sizing: border-box;
+        margin: 5px auto;
+    }
+
+    .box{
+        width: 25%;
+    }
+
+}
+
+@media (min-width:1200px) {
+
+    .wrapper{
+        width: 1200px;
+        box-sizing: border-box;
+        margin: 5px auto;
+    }
+
+    .box{
+        width: 300px;
+    }
+
+}
+
+
+
+
+
