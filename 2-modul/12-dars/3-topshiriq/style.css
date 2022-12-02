@@ -12,6 +12,7 @@ body{
     flex-wrap: wrap;
     width: 1200px;
     margin: 5rem auto;
+    overflow: hidden;
 }
 
 .box{
@@ -21,6 +22,8 @@ body{
     transition: 0.4s;
     position: relative;
 }
+
+
 
 .box img{
     width: 65px;
@@ -83,6 +86,116 @@ body{
 .box:hover{
     background-color: #0b6ca9;
 }
+
+.box1::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #af7ac5;
+    position: absolute;
+    top: 120px;
+    right: -15px;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+.box2::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #5dade2;
+    position: absolute;
+    top: 120px;
+    right: -15px;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+.box3::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #48c9b0;
+    position: absolute;
+    top: 120px;
+    right: -15px;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+.box4::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #52be80;
+    position: absolute;
+    top: 120px;
+    right: -15px;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+.box5::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #ecc837;
+    position: absolute;
+    top: 120px;
+    right: -15px;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+.box6::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #eb984e;
+    position: absolute;
+    top: 120px;
+    right: -15px;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+.box7::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #f06292;
+    position: absolute;
+    top: 120px;
+    right: -15px;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+.box8::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #4db6ac;
+    position: absolute;
+    top: 120px;
+    right: -15px;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    transition: all 0.4s;
+}
+
+.box:hover::before{
+    background-color: #0b6ca9;
+}
+
+
 
 
 .box:hover img{
