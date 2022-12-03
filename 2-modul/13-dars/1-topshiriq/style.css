@@ -99,7 +99,8 @@ h6{
 .zaybal{
     display: flex;
     justify-content: flex-start;
-    
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .soz{
@@ -110,9 +111,27 @@ h6{
 p{
     margin-bottom: 0;
 }
+.images{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
 
-i{
-    color: #999;
+.title{
+    margin:0;
+    padding: 0;
+    border: none;
+}
+
+h4{
+    margin: 0;
+    padding: 0;
     font-size: 12px;
-    background-color: rgb(215, 23, 23);
+    font-weight: 520;
+}
+
+.rasm{
+    width: 20px;
 }
