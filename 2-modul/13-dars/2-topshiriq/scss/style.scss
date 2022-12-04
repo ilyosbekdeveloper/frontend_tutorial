@@ -1,9 +1,92 @@
-$dak:red;
-
 body{
-    background-color: rgb(52, 47, 47);
-    p{
+    background-color: #ffffff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    h1{
         text-align: center;
-        color: $dak;
+        color: #141c24;
+        margin-top: 2rem;
     }
+
+    .wrapper{
+        width: 900px;
+        margin: -9rem auto;
+    }
+
+    .boxs{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+
+    }
+
+
+    .box{
+        width: 270px;
+        height: 130px;
+        background-color: #fffdf6;
+        position: relative;
+        box-sizing: border-box;
+        box-shadow: 0 1px 3px #d1cdcd;
+        margin-top: 4rem;
+        transition: all .4s;
+
+        h3{
+            text-align: center;
+            margin-bottom: 10px;
+            position: relative;
+            top: 50px;
+        }
+
+        p{
+            text-align: center;
+            font-size: 14px;
+            color: #f26b2a;
+            margin-top: 0;
+            margin-bottom: 10px;
+            position: relative;
+            top: 50px;
+        }
+
+        .rasm{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            position: absolute;
+            top: -47px;
+            left: 90;
+
+            img{
+                width: 82px;
+                margin-top: 4px;
+                margin-left: 4px;
+            }
+    
+        }
+    }
+
+    .box:hover{
+        box-shadow: 0 5px 30px rgb(224, 224, 224);
+    }
+
+    .top{
+        width: 170px;
+        height: auto;
+        margin-top: 5px;
+    }
+
+    .bottom{
+        width: 170px;
+        height: auto;
+        transform: rotateX(180deg) rotateZ(-90deg);
+        position: absolute;
+        right: 29px;
+        bottom: 70px;
+        margin-bottom: 0;
+    }
+
 }
