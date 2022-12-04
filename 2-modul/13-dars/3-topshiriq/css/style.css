@@ -33,7 +33,7 @@ body {
           height: 366px;
           background-size: cover; }
         body .wrapper .big-box .rasm .live {
-          background-color: red;
+          background-color: #ff0000;
           display: inline-block;
           color: #fff;
           padding: 4px;
