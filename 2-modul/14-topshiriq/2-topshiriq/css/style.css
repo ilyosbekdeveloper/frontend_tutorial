@@ -18,11 +18,9 @@ body {
         border-radius: 5px;
         cursor: pointer; }
     body .wrapper .big-box {
-      width: 540px;
       background-color: #fff;
       box-shadow: 0 0px 5px #ccc;
-      border-radius: 5px;
-      height: 657px; }
+      border-radius: 5px; }
       body .wrapper .big-box img {
         border-top-left-radius: 5px;
         border-top-right-radius: 5px; }
@@ -84,10 +82,8 @@ body {
       display: flex; }
       body .wrapper .meen .middle {
         display: flex;
-        flex-wrap: wrap;
-        margin-left: 10px; }
+        flex-wrap: wrap; }
         body .wrapper .meen .middle .box {
-          width: 310px;
           box-shadow: 0 0px 5px #ccc;
           border-radius: 5px;
           margin: 0 0 14px 14px;
@@ -101,8 +97,9 @@ body {
             overflow: hidden; }
             body .wrapper .meen .middle .box .little .play {
               position: absolute;
-              top: 19%;
-              left: 39%; }
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -145%); }
             body .wrapper .meen .middle .box .little .top {
               display: flex;
               background-color: red;
@@ -160,5 +157,67 @@ body {
                 body .wrapper .meen .middle .box .jek .section1 .right h5 {
                   color: #7d7c7c;
                   margin-left: 10px; }
+
+@media screen and (max-width: 474.9px) {
+  .wrapper {
+    width: 100%;
+    margin: 0 auto; }
+
+  .big-box {
+    width: 100%;
+    margin: 0 auto; }
+
+  .meen {
+    flex-wrap: wrap;
+    margin-left: -14.5px; }
+
+  .header {
+    width: 90%; }
+
+  .middle {
+    flex-wrap: wrap; }
+
+  .box {
+    width: 100%; }
+
+  .play {
+    right: 50%; }
+
+  * {
+    font-size: 35px; } }
+@media (min-width: 475px) and (max-width: 775.99px) {
+  .wrapper {
+    width: 100%; }
+
+  .big-box {
+    width: 100%; }
+
+  .box {
+    width: 48%; }
+
+  .meen {
+    flex-wrap: wrap;
+    margin: 5px 0; }
+
+  .middle {
+    margin: 5px -10px; }
+
+  * {
+    font-size: 20px; } }
+@media (min-width: 776px) and (max-width: 1199.9px) {
+  .wrapper {
+    max-width: 1000px; }
+
+  .box {
+    width: 45%; }
+
+  .header {
+    width: 98%; } }
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 1200px; }
+
+  .header {
+    width: 97%; } }
 
 /*# sourceMappingURL=style.css.map */
