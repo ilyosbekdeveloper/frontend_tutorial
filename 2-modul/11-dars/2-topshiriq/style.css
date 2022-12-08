@@ -148,13 +148,14 @@ del{
     .block{
         width: 100%;
         flex-wrap: wrap;
+        padding: 0 40px;
     }
     .box{
         width: 100%;
         margin: 1rem auto;
     }
     .header{
-        width: 100%;
+        width: 100%; 
     }
 
 }
@@ -168,6 +169,7 @@ del{
         width: 100%;
         flex-wrap: wrap;
         margin: 1rem auto;
+        padding: 0 40px;
     }
 
     .box{
@@ -188,6 +190,7 @@ del{
     .block{
         width: 100%;
         flex-wrap: wrap;
+        padding: 0 40px;
     }
     .box{
         width: 47%;
