@@ -14,7 +14,7 @@ body{
 }
 
 .box{
-    height: 420px;
+    padding-bottom: 20px;
     border: 1px solid #e8e8e8;
     text-align: center;
     box-sizing: border-box;
@@ -140,15 +140,65 @@ del{
     color: #424242;
 }
 
-@media  screen and (max-width:474px) {
+@media  screen and (max-width:474.9px) {
+
+    .wrapper{
+        width: 100%;
+    } 
+    .block{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .header{
+        width: 100%;
+    }
+
+}
+
+@media (min-width:475px) and (max-width:775.9px){
 
     .wrapper{
         width: 100%;
     }
+    .block{
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 1rem auto;
+    }
+
     .box{
         width: 100%;
+        margin: 1rem 0;
     }
     .header{
+        width: 100%;
+    }
+
+}
+
+@media (min-width:776px) and (max-width: 1199.9px){
+
+    .wrapper{
+        width: 1000px;
+    }
+    .block{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 47%;
+        margin: 1rem auto;
+    }
+
+}
+
+@media (min-width:1200px) {
+
+    .wrapper{
         width: 100%;
     }
 
