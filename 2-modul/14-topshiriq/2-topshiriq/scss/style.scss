@@ -16,8 +16,7 @@ body{
             }
 
             .btn{
-                width: 90px;
-                height: 30px;
+                padding: 0.50rem 1.3rem;
                 background-color: #eef2f5;
                 border: 1px solid #111;
                 border-radius: 5px;
@@ -42,7 +41,6 @@ body{
                 display: inline-block;
 
                 .height{
-                    height: 366px;
                     background-size: cover;
                 }
                 .live{
@@ -85,7 +83,6 @@ body{
 
                 p{
                     color: #7d7c7c;
-                    font-size: 13px;
                 }
 
                 .icons{
@@ -113,8 +110,9 @@ body{
         }
         .narx{
             margin: auto 20px;
-            #och{
+            .och{
                 color: #4d4c4c;
+                font-size: 16px;
             }
         }
 
@@ -154,10 +152,10 @@ body{
                         .top{
                             display: flex;
                             background-color: red;
-                            width: 60px;
-                            height: 15px;
                             align-items: center;
-                            padding: 5px;
+                            width: 60px;
+                            height: 14px;
+                            padding: 5px 5px;
                             position: absolute;
                             top: -1px;
                             right: -1px;
@@ -205,7 +203,6 @@ body{
 
                                     img{
                                         margin: 0 5px 0 0px;
-                                        width: 15px;
                                     }
                                 }
 
@@ -255,27 +252,90 @@ body{
     }
     .big-box{
         width: 100%;
-        margin: 0 auto;
+        margin-left: 25px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .height{
+        width: 100%;
+        height: 820px;
     }
     .meen{
         flex-wrap: wrap;
         margin-left: -14.5px;
     }
     .header{
-        width: 90%;
+        width: 98%;
+        margin-left: 10px;
+        margin-right: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;        
     }
     .middle{
         flex-wrap: wrap;
+        margin: 0.75rem 0.75rem;
     }
     .box{
         width: 100%;
+    }
+    .live{
+        padding: 7px 10px;
+        font-size: 24px;
+
+        .circle{
+            padding: 5px;
+        }
     }
     
     .play{
         right: 50%;
     }
-    *{
+    h3, h4, h2{
         font-size: 35px;
+    }
+    p{
+        font-size: 30px; 
+    }
+    .narx .och p{
+        font-size: 30px;
+    }
+    .top{
+        display: none;
+        margin-top: -40px;
+    }
+    .btn{
+        font-size: 25px;
+    }
+    body .wrapper .meen .middle .box .jek .section1 .main-section .section-1 img{
+    width: 35px;
+    height: 70px;
+    }
+    body .wrapper .meen .middle .box .jek .section1 .main-section .section-2 img{
+        width: 35px;
+        height: 70px;
+        }
+    body .wrapper .meen .middle .box .jek .section1 .main-section .section-1 h5{
+        font-size: 25px;
+        padding: 10px;
+    }
+    body .wrapper .meen .middle .box .jek .section1 .main-section .section-2 h5{
+        font-size: 25px;
+        padding: 10px;
+    }
+    body .wrapper .meen .middle .box img:nth-child(2){
+        width: 20px;
+        height: 20px;
+    }
+    .right{
+        margin-right: 70px;
+        align-items: center;
+        font-size: 30px;
+    }
+    .right img{
+        width: 50px;
+        height:50px;
     }
     
 }
@@ -287,6 +347,11 @@ body{
     }
     .big-box{
         width: 100%;
+    }
+    body .wrapper .big-box .rasm .height{
+        width: 1200px;
+        height: 730px;
+        background-size: cover;
     }
     .box{
         width: 48%;
@@ -310,12 +375,31 @@ body{
 
     .wrapper{
         max-width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body .wrapper .big-box .rasm .height{
+        width: 1000px;
+        height: 448px;
+        background-size: cover;
     }
     .box{
-        width: 45%;
+        width:48%;
     }
     .header{
-        width: 98%;
+        width: 100%;
+        margin-left: 13px;
+    }
+    .big-box{
+        width: 100%;
+        height: 600px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        margin-right: 10;
+    }
+    .meen{
+        display:flex;
+        flex-wrap: wrap;
     }
 
 }
