@@ -9,10 +9,8 @@ body{
 }
 
 .box{
-    width: 28%;
-    height: 370px;
     background-color: #fff;
-    padding: 0.2rem 1rem 0rem 1rem;
+    padding: 0.2rem 1rem 1.5rem 1rem;
     box-sizing: border-box;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -35,6 +33,12 @@ span{
 
 .month{
     padding-right: 3.2rem;
+}
+.ocklock{
+    width: 50%;
+}
+.month{
+    width: 50%;
 }
 
 .block{
@@ -65,7 +69,19 @@ h6{
         width: 100%;
     }
     .box{
-        width: 100%;
+        width: 70%;
+        margin: 10px auto;
+    }
+    .box h1{
+        font-size: 35px;
+    }
+
+    .box h6{
+        font-size: 30px;
+    }
+    
+    .box h4{
+        font-size: 30px;
     }
 
 }
@@ -76,11 +92,24 @@ h6{
     }
 
     .box{
-        width: 50%;
-        margin-left: 25%;
+        width: 80%;
+        margin: 1rem auto;
     }
     .month {
         padding-right: 17.2rem;
+    }
+    .ocklock{
+        width: 40%;
+        margin-right: 90px;
+    }
+    .block{
+        width: 100%;
+    }
+    h6{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 28px;
     }
 
 }
@@ -102,20 +131,20 @@ h6{
 @media (min-width: 990px) and (max-width:1199.99px){
 
     .wrapper{
-        width: 900px;
-        margin-left: 20px;
+        width: 900px;  
+        margin: 1rem auto;
     }
 
     .box{
         width: 280px;
     }
+    .block{
+        width: 100%;
 
-    body{
-        width: 950px;
-        margin: 20px;
     }
 
 }
+
 
 
 
