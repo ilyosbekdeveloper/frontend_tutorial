@@ -31,9 +31,7 @@ body {
     width: 900px;
     margin: 2rem auto; }
     body .wrapper .card {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap; }
+      width: 100%; }
       body .wrapper .card .card-1 {
         width: 8.3333333333%; }
     body .wrapper .card {

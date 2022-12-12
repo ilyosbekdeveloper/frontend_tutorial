@@ -82,39 +82,4 @@ $box-4Color:#bbbbbb;
         padding: 25px;
     }
     //box
-    .box{
-        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-        background-color: #fff;
-        padding: 0;
-        border-radius: 3px;
-
-        .top-section{
-            background-color: $box-1Color;
-            margin: 0;
-            position: relative;
-            height: 170px;
-            border-top-right-radius: 3px;
-            border-top-left-radius: 3px;
-
-            h2{
-                margin: 0;
-                color: #fff;
-                position: absolute;
-                bottom: 10px;
-                left: 15px;
-                font-weight: lighter;
-            }
-        }
-        .middle{
-            margin-top: 0;
-            padding:10px 15px;
-            padding-bottom: 30px;
-
-            p{
-                margin: 0;
-                font-size: 14px;
-                color: #333;
-            }
-        }
     }
-}

@@ -24,32 +24,5 @@
   .card .card-1, .card .card-2, .card .card-4, .card .card-5, .card .card-6,
   .card .card-7, .card .card-8, .card .card-9, .card .card-10, .card .card-11, .card .card-12 {
     padding: 25px; }
-  .card .box {
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    padding: 0;
-    border-radius: 3px; }
-    .card .box .top-section {
-      background-color: #009788;
-      margin: 0;
-      position: relative;
-      height: 170px;
-      border-top-right-radius: 3px;
-      border-top-left-radius: 3px; }
-      .card .box .top-section h2 {
-        margin: 0;
-        color: #fff;
-        position: absolute;
-        bottom: 10px;
-        left: 15px;
-        font-weight: lighter; }
-    .card .box .middle {
-      margin-top: 0;
-      padding: 10px 15px;
-      padding-bottom: 30px; }
-      .card .box .middle p {
-        margin: 0;
-        font-size: 14px;
-        color: #333; }
 
 /*# sourceMappingURL=style.css.map */
