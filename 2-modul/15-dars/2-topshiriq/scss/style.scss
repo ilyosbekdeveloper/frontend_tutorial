@@ -4,260 +4,436 @@ $box-2color:#01bbd4;
 $box-3Color:#3e50b4;
 $box-4Color:#bbbbbb;
 
-//incloude
-%ancer{
-    text-decoration: none;
-    color: #14c3a6;
-    font-size: 18px;
-    margin: 20px 15px;
-    font-size: 14px;
-    font-weight: 600;
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
-%h2{
-    margin: 0;
-    color: #fff;
-    position: absolute;
-    bottom: 10px;
-    left: 15px;
-    font-weight: lighter;
+
+//mixin
+%radius-top{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+%radius{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+%shadow{
+    box-shadow: 0 3px 5px #ccc;
 }
 %top{
+    @extend %radius-top;
+    margin-bottom: 0px;
+    h2{
+        padding-top: 130px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: lighter;
+        margin-bottom: 0;
+    }
+}
+%paragraph{
+    padding-left: 15px;
+    color: #343434;
+    font-size: 14px;
     margin: 0;
-    position: relative;
-    height: 170px;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
+    padding-bottom: 5px;
+    padding-top: 10px;
 }
-%jek{
-    color: #747474;
-    padding: 15px;
+%a{
+    color: #16c7b5;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: bolder;
+    align-items: center;
+    display: inline-block;
+    padding-top: 15px;
 }
-%bottom{
-    display: flex;
+%links{
     background-color: #fff;
-    margin-top: 2.5px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    @extend %radius;
+    margin-top: 3.5px;
+    height: 45px;
+    align-items: center;
     a{
-        @extend %ancer;
+        @extend %a;
     }
 }
 //
-
 
 body{
     background-color: $background;
 
     .wrapper{
-        width: 900px;
-        margin: 2rem auto;
-
-        //LAYOUT
+        width: 750px;
+        margin: 2.5rem auto;
+        display: flex;
+        justify-content: space-around;
+        
         .card{
-            width: 100%;
+            
 
-            .card-1{
-                width: 8.3333333333%;
-                
-            }
-        }
-        .card{
-            width: 100%;
-            display: flex;
-
-            .card-2{
-                width: 16.6666666666%;
-                
-            }
-        }
-        .card{
-            width: 100%;
-            display: flex;
-
-            .card-3{
-                width: 25%;
-            }
-            .card-4{
-                width: 33.3333333%;
-            }
-            .card-5{
-                width: 41.66666665%;
-            }
             .card-6{
-                width: 50%;
-            }
-            .card-7{
-                width: 58.333333333%;
-            }
-            .card-8{
-                width: 66.666666666%;
-            }
-            .card-9{
-                width: 75%;
-            }
-            .card-10{
-                width: 83.333333333%;
-            }
-            .card-11{
-                width: 91.666666663%;
-            }
-            .card-12{
-                width: 100%;
-            }
-            .card-1,.card-2,.card-4, .card-5, .card-6,
-            .card-7, .card-8, .card-9, .card-10, .card-11, .card-12{
-                padding: 25px;
-            }
-            //box
-            .box{
-                box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-                background-color: #fff;
-                padding: 0;
-                border-radius: 3px;
 
-                .top-section{
-                    background-color: $box-1Color;
-                    margin: 0;
-                    position: relative;
-                    height: 170px;
-                    border-top-right-radius: 3px;
-                    border-top-left-radius: 3px;
-
-                    h2{
-                        margin: 0;
-                        color: #fff;
-                        position: absolute;
-                        bottom: 10px;
-                        left: 15px;
-                        font-weight: lighter;
+                .box{
+                    border-radius: 4px;
+                    @extend %shadow;
+                    .middle{
+                        background-color: #fff;
+                        margin-bottom: 0;
+                        .top{
+                            @extend %top;
+                            background-color: $box-1Color;
+                        }
+                        .p{
+                            p{
+                            @extend %paragraph;
+                            padding: 12px;
+                            }
+                        }
                     }
-                }
-                .middle{
-                    margin-top: 0;
-                    padding:10px 15px;
-                    padding-bottom: 30px;
-
-                    p{
-                        margin: 0;
-                        font-size: 14px;
-                        color: #333;
+                    .links{
+                        @extend %links;
                     }
                 }
             }
-            .bottom{
-                display: flex;
-                background-color: #fff;
-                margin-top: 2.5px;
-                border-bottom-right-radius: 3px;
-                border-bottom-left-radius: 3px;
-                a{
-                    @extend %ancer;
-                }
-            }
-            .top-section2{
-                @extend %top;
-                background-color: $box-2color;
-
-                h2{
-                    @extend %h2;
-                }
-            }
-            .bottom2{
-                @extend %jek;
-                text-align: right;
-
-                i{
-                    padding: 0 10px;
-                }
-            }
-        }
-        .card{
             .card-6{
-                border-radius: 3px;
-
-                .section{
+                .box1{
+                    margin-top: 20px;
                     display: flex;
-                    margin: 0;
-                    padding: 0;
-                    border-left: 100px solid $box-4Color;
+                    .left{
+                        width: 40%;
+                        background-color: $box-4Color;
+                        border-top-left-radius: 4px;
+                        border-bottom-left-radius: 4px;
+                    }
                     .right{
-                        padding: 10px 15px;
-
+                        width: 100%;
+                        .top1{
+                            background-color: #fff;
+                            width: 100%;
+                            border-top-right-radius: 4px;
+                            h3{
+                                margin: 0;
+                                font-size: 22px;
+                                font-weight: lighter;
+                                padding-left: 15px;
+                                padding-top: 10px;
+                            }
+                            p{
+                                margin-top: 10px;
+                                color: #979595;
+                                font-size: 14px;
+                                padding-left: 15px;
+                                padding-bottom: 35px;
+                                margin-bottom: 0;
+                            }
+                        }
+                        .bottom1{
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+            .card-6{
+                .box{
+                    margin-top: 20px;
+                    .top2{
+                        background-color: #fff;
+                        @extend %radius-top;
+                        padding-left: 15px;
+                        padding-top: 10px;
+                        padding-bottom: 60px;
                         h1{
-                            color: #333;
-                            font-weight: lighter;
-                            font-size: 26px;
+                            color: #16c7b5;
+                            margin: 0;
+                            padding-top: 15px;
+                            padding-bottom: 10px;
                         }
                         p{
-                            margin-top: 5px;
+                            color: #333;
+                            margin: 0;
+                            padding-top: 10px;
                         }
-                        .hmr{
-                            width: 300px;
-                            height: 3px;
-                            background-color: $background;
-                        }
-                        .section2{
-                            margin-top: 15px;
-                            a{
-                            @extend %ancer;
-                        }
-                        }
-                        
+                    }
+                    .bottom2{
+                        margin-top: 4px;
                     }
                 }
             }
-            .box1{
+        }
+        .card{
+            width: 325px;
+            .card-6{
 
-                .top{
-                    @extend %top;
-                    background-color: $box-3Color;
+                .box{
 
-                    h2{
-                        @extend %h2;
-                    }                    
-                }
-                .bottom{
-                    @extend %jek;
+                    .top-section2{
+                        @extend %top;
+                        background-color: $box-2color;
+                    }
+                    .bottom3{
+                        padding: 10px 0;
+                        text-align: right;
+                        background-color: #fff;
+                        @extend %radius;
 
-                    i{                        
-                    padding: 0 15px;
+                        i{
+                            color: #797878;
+                            padding: 5px 15px;
+                        }
                     }
                 }
             }
-            .box2{
+            .card-6-flex{
+                display: flex;
+                justify-content: space-between;
+                .card-3{
+                    width: 48%;
+                    .box{
+                        .top-section{
+                            background-color: $box-3Color;
+                            @extend %radius-top;
 
-                .top{
-                    @extend %top;
-                    background-color: $box-2color;
-
-                    h2{
-                        @extend %h2;
-                    }                    
+                            h2{
+                                padding-top: 100px;
+                                padding-left: 15px;
+                                padding-bottom: 10px;
+                                color: #fff;
+                                font-size: 24px;
+                                font-weight: lighter;
+                                margin-bottom: 0;
+                            }
+                        }                        
+                        .bottom3{
+                            text-align: center;
+                            display: flex;
+                            justify-content: space-evenly;
+                            i{
+                                text-align: center;
+                            }
+                        }
+                    }
                 }
-                .bottom{
-                    @extend %jek;
+                .card-3{
+                    width: 48%;
+                    .box{
+                        .top-section5{
+                            @extend %radius-top;
+                            h2{
+                            padding-top: 100px;
+                            padding-left: 15px;
+                            padding-bottom: 10px;
+                            color: #fff;
+                            font-size: 24px;
+                            font-weight: lighter;
+                            margin-bottom: 0;
+                        }
+                            background-color: $box-1Color;
+                        }                        
+                        .bottom3{
+                            text-align: center;
+                            display: flex;
+                            justify-content: space-evenly;
+                            i{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+            .card-6-flex{
+                .card-3{
 
-                    i{                        
-                    padding: 0 15px;
+                    .box{
+                        .top-box{
+                            margin-bottom: 0;
+                            .box-top{
+                                background-color: #3e50b4;
+                                @extend %radius-top;
+
+                                h2{
+                                    color: #fff;
+                                    padding-top: 15px;
+                                    padding-left: 15px;
+                                    padding-bottom: 30px;
+                                    font-style: normal;
+                                    font-weight: lighter;
+                                    font-size: 26px;
+                                    margin: 0;
+                                }
+
+                            }
+                            .box-bottom{
+                                background-color: #3e50b4;
+                                margin-top: 0.2px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding: 10px 0;
+                                @extend %radius;
+
+                                h6{
+                                    margin: 0;
+                                    padding-left: 15px;
+                                    font-size: 15px;
+                                    color: #fff;
+                                    font-weight: lighter;
+                                }
+                                i{
+                                    font-size: 30px;
+                                    color: #fff;
+                                    padding-right: 10px;
+                                }
+                            }
+
+                        }
+                        .bottom-box{
+                            margin-top: 10px;
+                            background-color: #465965;
+                            border-radius: 4px;
+
+                            h1{
+                                margin: 0;
+                                padding: 15px;
+                                color: #fff;
+                                font-weight: lighter;
+                                font-size: 21px;
+                            }
+                        }
+                    }
+                }
+                .card-3{
+                    .box{
+
+                        .top-boxx{
+                            background-color: #36474f;
+                            color: #c9c3c3;
+                            @extend %radius-top;
+                            h6{
+                                padding-left: 15px;
+                                padding-top: 10px;
+                                padding-bottom: 20px;
+                                margin: 0;
+                            }
+                            .form{
+                                margin-left: 15px;
+
+                                .input{
+                                    padding: 11px 10px 11px 0;
+
+                                    #vehicle1{
+                                        background-color: #343434;
+                                    }
+                                }
+                            }
+                        }
+                        .bottom-boxx{
+                            margin-top: 1px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            background-color: #36474f;
+                            @extend %radius;
+
+                            h6{
+                                margin: 0;
+                                padding: 15px;
+                                color: #c9c3c3;
+                            }
+                            i{
+                                padding-right: 15px;
+                                color: #fff;
+                            }
+                        }
                     }
                 }
             }
         }
 
+        
     }
 }
+
 *{
-    font-family: sans-serif;
     box-sizing: border-box;
 }
-h2, h3, h1{
-    margin: 0;
+
+@media screen and (max-width:474.9px) {
+    
+    .wrapper{
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+        flex-wrap: wrap !important;
+        
+    }
+    .card-6{
+        width: 100% !important;
+        flex-wrap: wrap;
+        
+    }
+    .box{
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
 }
-.box1{
-    padding-left: 30px;
-    padding-right: 5px;
+@media (min-width:475px) and (max-width:775.9px) {
+    
+    .wrapper{
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+    .left{
+        width: 100px;
+        background-color: $box-4Color;
+    }
+    .card{
+        width: 50%;
+        flex-wrap: wrap !important;
+        
+    }
+    .card-6{
+        width: 100% !important;
+        flex-wrap: wrap;
+        
+    }
+    .box{
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
 }
-.box2{
-    padding-right: 30px;
-    padding-left: 5px;
+@media (min-width:776px) and (max-width:1119.9px) {
+    
+    .wrapper{
+        width: 776px !important;
+        flex-wrap: wrap;
+    }
+    .left{
+        width: 100px;
+        background-color: $box-4Color;
+    }
+    .card{
+        width: 50%;
+        flex-wrap: wrap !important;
+        
+    }
+    .card-6{
+        width: 100% !important;
+        flex-wrap: wrap;
+        
+    }
+    .box{
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
 }
