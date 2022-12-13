@@ -72,6 +72,8 @@ body{
 }
 .box1{
     position: relative;
+    transition: 0.5sdaa
+    ;
 }
 .jek{
     position: absolute;
@@ -85,6 +87,7 @@ body{
     padding: 0;
     opacity: 0;
     border-radius: 3px;
+    transition:0.5s;
 }
 .center{
     width: 100%;

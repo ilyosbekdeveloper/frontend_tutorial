@@ -62,7 +62,7 @@ body {
 
 .box1 {
   position: relative;
-  transition: all 1 ease-in-out; }
+  transition: 0.5sdaa; }
 
 .jek {
   position: absolute;
@@ -76,7 +76,7 @@ body {
   padding: 0;
   opacity: 0;
   border-radius: 3px;
-  transition: all 1 ease-in-out; }
+  transition: 0.5s; }
 
 .center {
   width: 100%;
@@ -87,6 +87,6 @@ body {
 
 .box1:hover .jek {
   opacity: 1;
-  transition: all 1 ease-in-out; }
+  transition: 0.5s; }
 
 /*# sourceMappingURL=style.css.map */
