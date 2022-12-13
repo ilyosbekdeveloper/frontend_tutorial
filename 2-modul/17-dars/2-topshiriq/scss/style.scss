@@ -72,7 +72,6 @@ body{
 }
 .box1{
     position: relative;
-    transition: all 1 ease-in-out;
 }
 .jek{
     position: absolute;
@@ -86,7 +85,6 @@ body{
     padding: 0;
     opacity: 0;
     border-radius: 3px;
-    transition: all 1 ease-in-out;
 }
 .center{
     width: 100%;
@@ -97,7 +95,7 @@ body{
 }
 .box1:hover .jek{
     opacity: 1;
-    transition: all 1 ease-in-out;
+    transition:0.5s;
 }
 
 
