@@ -1,0 +1,83 @@
+//mixin
+@mixin btn($pp, $fs){
+    padding:$pp;
+    font-size:$fs;
+}
+//
+%btn-style{
+    background-color: #3764ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background-color: #234ce0;
+    }
+    &:active{
+        background-color: #0037ff;
+    }
+}
+
+
+body{
+    background-color: #e7f7f9 !important;
+
+    table{
+        background-color: #fff;
+
+        span{
+            color: #a9aaab;
+            font-weight: lighter;
+            padding: 15px;
+        }
+        .bold{
+            font-weight: bold;
+            color: #555;
+        }
+    }
+}
+.btn-lg{
+    @include btn(10px 18px, 16px);
+    margin: 0;
+    @extend %btn-style;
+}
+.btn-xl{
+    @include btn(12px 20px, 18px);
+    @extend %btn-style;
+}
+.btn-md{
+    @include btn(8px 18px, 14px);
+    @extend %btn-style;
+}
+.btn-sm{
+    @include btn(6px 16px, 12px);
+    @extend %btn-style;
+}
+.btn-xsm{
+    @include btn(4px 14px, 10px);
+    @extend %btn-style;
+}
+
+/////////////////////////////////
+
+.star-xl{
+    @include btn(12px 20px,18px );
+    margin-left: 15px;
+}
+.star-lg{
+    @include btn(10px 18px,16px );
+    margin-left: 15px;
+}
+.star-md{
+    @include btn(8px 16px,14px );
+    margin-left: 15px;
+}
+.star-sm{
+    @include btn(6px 14px,12px );
+    margin-left: 15px;
+}
+.star-xsm{
+    @include btn(4px 12px,10px );
+    margin-left: 15px;
+}
