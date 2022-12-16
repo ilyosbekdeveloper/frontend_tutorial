@@ -1,0 +1,112 @@
+body{
+    background-color: #f6f7fc !important;
+
+    .row{
+
+        .coll{
+            margin-bottom: 2rem;
+            .row{
+                .col-12{
+                    margin: 1px 0;
+                .flex{
+                    display: flex;
+                    background-color: #fff;
+                    .right{
+                        width: 50%;
+                        padding-left: 30px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+
+                        p{
+                            margin: 0;
+                        }
+                    }
+                    .left{
+                        width: 50%;
+                        padding-right: 30px;
+                        text-align: right;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+                }
+            }
+        }
+    }
+}
+.jek{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 14px;
+    .right1{
+        width: 40px;
+        height: 40px;
+        background-color: #0059ff;
+        border-radius: 50%;
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex;
+        align-items: center;
+
+        i{
+            color: #fff;
+            padding-left: 15px;
+        }
+    }
+    .right2{
+        width: 40px;
+        height: 40px;
+        background-color: #ff0019;
+        border-radius: 50%;
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex;
+        align-items: center;
+
+        i{
+            color: #fff;
+            padding-left: 15px;
+        }
+    }
+    .left1{
+        width: 40px;
+        height: 40px;
+        background-color: #00ff08;
+        border-radius: 50%;
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex;
+        align-items: center;
+
+        i{
+            color: #fff;
+            padding-left: 11px;
+        }
+    }
+    .left2{
+        width: 40px;
+        height: 40px;
+        background-color: #ffdd00;
+        border-radius: 50%;
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex;
+        align-items: center;
+
+        i{
+            color: #057fd7;
+            padding-left: 12px;
+        }
+    }
+}
+.text-center{
+    background-color: #fff;
+    margin: 0;
+    padding: 15px 0;
+    h4{
+        margin: 0 !important;
+    }
+}

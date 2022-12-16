@@ -1,0 +1,42 @@
+body {
+  background-color: #f3f3f3 !important; }
+  body .container .row {
+    display: flex;
+    align-items: center; }
+    body .container .row .colll {
+      background-color: #fff; }
+      body .container .row .colll .row .col-3 {
+        padding-left: 50px; }
+        body .container .row .colll .row .col-3 img {
+          width: 80%;
+          height: 80%;
+          margin: 20px 40px; }
+      body .container .row .colll .row .col-6 a {
+        color: #171717;
+        text-decoration: none;
+        padding: 10px 30px;
+        font-weight: bolder; }
+    body .container .row .col-4 {
+      min-height: 88px;
+      background-color: #ecedef;
+      display: flex;
+      align-items: center; }
+      body .container .row .col-4 .coll {
+        display: flex; }
+        body .container .row .col-4 .coll a {
+          color: #171717;
+          text-decoration: none;
+          padding: 0 15px;
+          font-weight: bolder; }
+      body .container .row .col-4 .col-3 form {
+        display: flex;
+        align-self: flex-end;
+        padding-left: 25px; }
+        body .container .row .col-4 .col-3 form select {
+          border: 1px solid #999;
+          border-radius: 10px; }
+
+* {
+  font-family: sans-serif !important; }
+
+/*# sourceMappingURL=style.css.map */
