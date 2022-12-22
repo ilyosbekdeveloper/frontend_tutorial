@@ -1,0 +1,86 @@
+.btn-xsm, .btn-sm, .btn-md, .btn-xl, .btn-lg {
+  background-color: #3764ff;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-xsm:hover, .btn-sm:hover, .btn-md:hover, .btn-xl:hover, .btn-lg:hover {
+  background-color: #234ce0;
+}
+.btn-xsm:active, .btn-sm:active, .btn-md:active, .btn-xl:active, .btn-lg:active {
+  background-color: #0037ff;
+}
+
+body {
+  background-color: #e7f7f9 !important;
+}
+body table {
+  background-color: #fff;
+}
+body table span {
+  color: #a9aaab;
+  font-weight: lighter;
+  padding: 15px;
+}
+body table .bold {
+  font-weight: bold;
+  color: #555;
+}
+
+.btn-lg {
+  padding: 10px 18px;
+  font-size: 16px;
+  margin: 0;
+}
+
+.btn-xl {
+  padding: 12px 20px;
+  font-size: 18px;
+}
+
+.btn-md {
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+.btn-sm {
+  padding: 6px 16px;
+  font-size: 12px;
+}
+
+.btn-xsm {
+  padding: 4px 14px;
+  font-size: 10px;
+}
+
+.star-xl {
+  padding: 12px 20px;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.star-lg {
+  padding: 10px 18px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.star-md {
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.star-sm {
+  padding: 6px 14px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.star-xsm {
+  padding: 4px 12px;
+  font-size: 10px;
+  margin-left: 15px;
+}/*# sourceMappingURL=style.css.map */

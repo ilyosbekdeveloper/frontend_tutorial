@@ -1,0 +1,103 @@
+body {
+  background-color: #f6f7fc !important;
+}
+body .row .coll {
+  margin-bottom: 2rem;
+}
+body .row .coll .row .col-12 {
+  margin: 1px 0;
+}
+body .row .coll .row .col-12 .flex {
+  display: flex;
+  background-color: #fff;
+}
+body .row .coll .row .col-12 .flex .right {
+  width: 50%;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body .row .coll .row .col-12 .flex .right p {
+  margin: 0;
+}
+body .row .coll .row .col-12 .flex .left {
+  width: 50%;
+  padding-right: 30px;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body .row .coll .row .col-12 .flex .left p {
+  margin: 0;
+}
+
+.jek {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 14px;
+}
+.jek .right1 {
+  width: 40px;
+  height: 40px;
+  background-color: #0059ff;
+  border-radius: 50%;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+}
+.jek .right1 i {
+  color: #fff;
+  padding-left: 15px;
+}
+.jek .right2 {
+  width: 40px;
+  height: 40px;
+  background-color: #ff0019;
+  border-radius: 50%;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+}
+.jek .right2 i {
+  color: #fff;
+  padding-left: 15px;
+}
+.jek .left1 {
+  width: 40px;
+  height: 40px;
+  background-color: #00ff08;
+  border-radius: 50%;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+}
+.jek .left1 i {
+  color: #fff;
+  padding-left: 11px;
+}
+.jek .left2 {
+  width: 40px;
+  height: 40px;
+  background-color: #ffdd00;
+  border-radius: 50%;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+}
+.jek .left2 i {
+  color: #057fd7;
+  padding-left: 12px;
+}
+
+.text-center {
+  background-color: #fff;
+  margin: 0;
+  padding: 15px 0;
+}
+.text-center h4 {
+  margin: 0 !important;
+}/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-body .container .row .col-8 .row .col-12 .header h2, body .container .row .col-8 .row .col-6 .box .document .document1 h2, body .container .row .col-8 .row .col-6 .box .document .document2 h4, body .container .row .col-12 .box1 .col-12 h2 {
+body .container .row .col-12 .row .col-12 .header h2, body .container .row .col-12 .row .col-6 .box .document .document1 h2, body .container .row .col-12 .row .col-6 .box .document .document2 h4, body .container .row .col-12 .box1 .col-12 h2 {
   font-size: 16px;
   color: #434242;
   font-weight: bolder;
@@ -18,9 +18,9 @@ body .container .row .col-8 .row .col-12 .header h2, body .container .row .col-8
 
 body {
   background-color: #eee; }
-  body .container .row .col-8 .row .col-12 {
+  body .container .row .col-12 .row .col-12 {
     margin: 15px auto; }
-    body .container .row .col-8 .row .col-12 .btn-group {
+    body .container .row .col-12 .row .col-12 .btn-group {
       background-color: #ececec;
       border-radius: 20px;
       padding-left: 10px;
@@ -30,7 +30,7 @@ body {
       justify-content: space-evenly;
       align-items: center;
       flex-wrap: wrap; }
-      body .container .row .col-8 .row .col-12 .btn-group .btn-hover {
+      body .container .row .col-12 .row .col-12 .btn-group .btn-hover {
         color: #b9b7b7;
         font-size: 14px;
         border: none;
@@ -40,39 +40,39 @@ body {
         background-color: #ececec;
         transition: all 0.5s ease-in-out;
         align-items: center; }
-        body .container .row .col-8 .row .col-12 .btn-group .btn-hover:hover {
+        body .container .row .col-12 .row .col-12 .btn-group .btn-hover:hover {
           border-radius: 10px;
           color: #5f5f5f;
           background-color: #ffffff;
           height: 60%;
           margin: 0;
           box-shadow: 0 2px 3px #ccc; }
-  body .container .row .col-8 .row {
+  body .container .row .col-12 .row {
     width: 100%; }
-    body .container .row .col-8 .row .col-6 .box .document {
+    body .container .row .col-12 .row .col-6 .box .document {
       padding: 0 20px;
       margin-top: 10px; }
-      body .container .row .col-8 .row .col-6 .box .document .document1 h2 {
+      body .container .row .col-12 .row .col-6 .box .document .document1 h2 {
         padding: 0 30px; }
-      body .container .row .col-8 .row .col-6 .box .document .document1 p {
+      body .container .row .col-12 .row .col-6 .box .document .document1 p {
         color: #abaaaa;
         padding: 0 30px;
         font-size: 14px;
         margin: 0; }
-      body .container .row .col-8 .row .col-6 .box .document .document2 {
+      body .container .row .col-12 .row .col-6 .box .document .document2 {
         display: flex;
         justify-content: space-between;
         padding: 0 30px;
         align-items: center;
         margin-top: 10px; }
-        body .container .row .col-8 .row .col-6 .box .document .document2 span {
+        body .container .row .col-12 .row .col-6 .box .document .document2 span {
           color: #444;
           font-weight: lighter; }
-        body .container .row .col-8 .row .col-6 .box .document .document2 h4 {
+        body .container .row .col-12 .row .col-6 .box .document .document2 h4 {
           margin: 0; }
-        body .container .row .col-8 .row .col-6 .box .document .document2 .btn-group {
+        body .container .row .col-12 .row .col-6 .box .document .document2 .btn-group {
           border: 1px solid #999; }
-          body .container .row .col-8 .row .col-6 .box .document .document2 .btn-group .btn {
+          body .container .row .col-12 .row .col-6 .box .document .document2 .btn-group .btn {
             padding: 0 10px;
             margin: 0; }
   body .container .row .col-12 .box1 .col-12 {

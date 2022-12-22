@@ -1,0 +1,81 @@
+body {
+  background-color: #eeeeee;
+  font-family: sans-serif;
+}
+body .wrapper {
+  width: 600px;
+  margin: 2rem auto;
+}
+body .wrapper .main-form .jek {
+  display: block;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  margin: 20px;
+  height: 40px;
+  width: 100%;
+  background-color: #eeeeee;
+  outline: none;
+  font-size: 18px;
+  caret-color: #1e8b80;
+  transition: all 0.4s;
+}
+body .wrapper .main-form .jek:focus {
+  border-bottom-color: #1e8b80;
+}
+body .wrapper .main-form #input6 {
+  border-bottom: 3px solid #ccc;
+  margin-bottom: 5px;
+}
+body .wrapper .main-form #input6:focus {
+  border-bottom-color: #ae4a43;
+}
+body .wrapper .main-form label[for=input6] {
+  font-size: 14px;
+  margin-left: 20px;
+  color: #ae4a43;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+i {
+  color: #ae4a43;
+  margin: 0;
+  font-size: 18px;
+}
+
+textarea {
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+  outline: none;
+  height: 30px;
+  border: none;
+  background-color: #eeeeee;
+  border-bottom: 3px dotted #ccc;
+  font-size: 16px;
+  color: #444;
+  font-family: sans-serif;
+}
+textarea::-moz-placeholder {
+  padding: 0;
+  font-size: 16px;
+  -moz-columns: #ccc;
+       columns: #ccc;
+  font-family: sans-serif;
+}
+textarea:-ms-input-placeholder {
+  padding: 0;
+  font-size: 16px;
+  columns: #ccc;
+  font-family: sans-serif;
+}
+textarea::placeholder {
+  padding: 0;
+  font-size: 16px;
+  -moz-columns: #ccc;
+       columns: #ccc;
+  font-family: sans-serif;
+}/*# sourceMappingURL=style.css.map */
