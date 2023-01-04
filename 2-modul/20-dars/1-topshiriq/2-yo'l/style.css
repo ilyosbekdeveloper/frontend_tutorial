@@ -2,12 +2,14 @@ body{
 }
 
 img{
-    width: 100%;
+    min-width: 100vh;
+    max-width: 100vh;
     height: 100%;
-    background-size: cover;
 }
 .carousel-item{
     height: 450px;
+    max-width: 100vh !important;
+    min-width: 100vh;
 }
 .carousel{
     position: absolute !important;
