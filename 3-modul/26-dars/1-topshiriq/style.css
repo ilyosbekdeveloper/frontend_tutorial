@@ -1,0 +1,45 @@
+.wrapper{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-family: sans-serif;
+    transform: translate(-50%, -50%);
+}
+form{
+    width: 300px;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #848484;
+    padding: 10px 5px;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+.dot{
+    position: relative;
+}
+i{
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+label{
+    color: #999;
+    font-size: 14px;
+}
+#email{
+    margin-bottom: 15px;
+}
+#btn{
+    width: 310px;
+    padding: 7px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+}

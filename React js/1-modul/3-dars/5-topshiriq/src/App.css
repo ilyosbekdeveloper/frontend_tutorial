@@ -1,0 +1,249 @@
+/*fonts*/
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Text:wght@100;200;300;400;500;600;700&display=swap);
+body {
+  font-family: 'Crimson Text', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+}
+
+/*root*/
+:root{
+  /*colors*/
+  --h1-color: #ff0000;
+  --a-color: rgb(185, 7, 7);
+  --p-color: #fff;
+  /*backgroundColors*/
+  --div-bg: rgb(31, 30, 30);
+
+  /*Box shadow*/
+
+  /*font size*/
+  --h1-font: 38px;
+  --p-font: 18px;
+
+  /*hover-color*/
+  --hover-a: red;
+}
+
+
+/*default*/
+img{
+  width: 100%;
+  object-fit: cover;
+}
+a{
+  text-decoration: none;
+}
+button{
+  border-radius: none;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+}
+/**/
+
+
+/*=======HEADER=======*/
+header{
+  width: 100%;
+  height: 100px;
+  background-color: var(--div-bg);
+}
+.headerContainer{
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+}
+
+/*LINKS*/
+.headerLinks ul li a{
+  padding: 10px 40px;
+  color: var(--a-color);
+  transition: .2s;
+}
+.headerLinks ul li a:hover{
+  color: var(--hover-a);
+}
+.active{
+  color: var(--hover-a) !important;
+}
+
+/*======HOME======*/
+.homeSection{
+  background: url(./images/homeImg.jpg) no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+.homeDescription{
+  position: absolute;
+  width: 350px;
+  top: 12%;
+  left: 30px;
+}
+.homeDescriptionPar p{
+  color: var(--p-color);
+  font-family: serif;
+  font-size: var(--p-font);
+  letter-spacing: 1px;
+
+}
+.homeDescriptionTitle h1{
+  color: var(--h1-color);
+  font-size: var(--h1-font);
+  margin-bottom: 10px;
+}
+
+/*====OUR CARS====== */
+.ourCar{
+  background-color: rgb(31, 30, 30);
+  padding: 4rem 0;
+}
+.ourCars{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: auto;
+  transition: .3s;
+}
+.imgContainer{
+  width: 31%;
+  height: 400px;
+  overflow: hidden;
+  margin: 10px;
+}
+.imgContainer img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: .3s;
+}
+.imgContainer:hover img{
+  transform: scale(1.2);
+  filter: blur(2px);
+}
+
+.ourCarsTitle{
+  text-align: center;
+  font-size: 39px;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--h1-color);
+}
+
+
+/*=======contact=======*/
+#contact{
+  background-color: var(--div-bg);
+}
+.contact{
+  width: 400px;
+  margin: auto;
+  height: 300px;
+  position: relative;
+}
+#name{
+  border: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 18px;
+  padding: 3px 10px;
+}
+#name:focus{
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #111;
+}
+label{
+  font-size: 12px;
+  color: var(--h1-color);
+  display: block;
+}
+#number{
+  border: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 3px 10px;
+  font-size: 18px;
+}
+#number:focus{
+  outline: none;
+  color: rgb(255, 255, 255);
+  background-color: #111;
+}
+.numberLabel{
+  font-size: 12px;
+  color: var(--h1-color);
+  display: block;
+  margin-top: 10px;
+}
+form{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--h1-color);
+  padding: 1rem;
+}
+.contactTitle{
+  color: var(--h1-color);
+  text-align: center;
+  font-size: 24px;
+}
+.contactTitle h1{
+  font-weight: lighter;
+}
+#text{
+  background-color: transparent;
+  border: 1px solid red;
+  width: 100%;
+  margin-top: 1rem;
+  height: 40px;
+  color: var(--p-color);
+  font-size: 18px;
+  padding: 4px 15px;
+}
+#text:focus{
+  outline: none;
+}
+
+/*======== FOOTER =======*/
+footer{
+  background-color: var(--h1-color);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  font-size: 20px;
+  color: #111;
+  font-weight: bold;
+}
+footer p a{
+  font-weight: lighter;
+  color: #fff;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: #eee;
+    overflow-x: hidden;
+}
+.wrapper{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+p{
+    margin: 0;
+}
+.section{
+    padding: 10px;
+}
+.btnn{
+    display: flex;
+    justify-content: right;
+}
+/* .demo{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+} */
